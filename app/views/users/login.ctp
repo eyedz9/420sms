@@ -13,8 +13,10 @@
 
 <div class="menu-toggler sidebar-toggler"></div>
         <div class="logo">
-            <?php echo $this->Html->link($this->Html->image(LOGO,array('class' =>'img-responsive')), '/', array('escape' =>false, 'class' =>'brand'));?>
-        </div>
+           <?php echo $this->Html->link($this->Html->image(LOGO,array('class' =>'img-responsive')), '/', array('escape' =>false, 'class' =>'brand'));?>
+		
+		
+</div>
 <div class="content">
 <div id="validationMessages" style="display:none"></div>
 <?php echo $this->Session->flash(); ?>
