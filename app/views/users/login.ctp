@@ -12,7 +12,7 @@
 </script>
 
 <div class="menu-toggler sidebar-toggler"></div>
-        <div class="logo">
+        <div class="logo center-block">
            <?php echo $this->Html->link($this->Html->image(LOGO,array('class' =>'img-responsive')), '/', array('escape' =>false, 'class' =>'brand'));?>
 		
 		
