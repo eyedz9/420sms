@@ -451,7 +451,7 @@ $Option4=array(
 		<?php echo $this->Form->input('User.userCode',array('div'=>false,'label'=>false, 'class' => 'form-control placeholder-no-fix','placeholder'=>'Enter the captcha from below'))?>	
 		</div>
 		<div class="feildbox">
-			<img id="captcha" src="<?php echo $this->Html->url('/users/captcha_image');?>" alt="" />
+			<img id="captcha" src="<?php echo $this->Html->url('../users/captcha_image');?>" alt="" />
 			<a href="javascript:void(0);" onclick="javascript:document.images.captcha.src='<?php echo $this->Html->url('../users/captcha_image');?>?' + Math.round(Math.random(0)*1000)+1">
 			<br/><span class="reload">Reload Captcha</a> </span>
 		</div>
