@@ -48,13 +48,17 @@
 		    <?php echo $this->Form->input('User.confirm_password',array('div'=>false,'label'=>false, 'class' => 'form-control placeholder-no-fix','placeholder'=>'Confirm password','type' => 'password'))?>
 		</div>
                 <?php
-							$Option3=array('Pacific/Midway'=>'(UTC-11:00) Midway Island',
+							$Option3=array(
+	'America/Los_Angeles'=>'(UTC-08:00) Pacific Time (US & Canada)',
+	'US/Arizona'=>'(UTC-07:00) Arizona',
+	'US/Eastern'=>'(UTC-05:00) Eastern Time (US & Canada)',
+	'Pacific/Midway'=>'(UTC-11:00) Midway Island',
 					'Pacific/Samoa'=>'(UTC-11:00) Samoa',
 					'Pacific/Honolulu'=>'(UTC-10:00) Hawaii',
 					'US/Alaska'=>'(UTC-09:00) Alaska',
-					'America/Los_Angeles'=>'(UTC-08:00) Pacific Time (US & Canada)',
+					
 					'America/Tijuana'=>'(UTC-08:00) Tijuana',
-					'US/Arizona'=>'(UTC-07:00) Arizona',
+					
 					'America/Chihuahua'=>'(UTC-07:00) Chihuahua',
 					'America/Chihuahua'=>'(UTC-07:00) La Paz',
 					'America/Mazatlan'=>'(UTC-07:00) Mazatlan',
@@ -66,7 +70,7 @@
 					'America/Monterrey'=>'(UTC-06:00) Monterrey',
 					'Canada/Saskatchewan'=>'(UTC-06:00) Saskatchewan',
 					'America/Bogota'=>'(UTC-05:00) Bogota',
-					'US/Eastern'=>'(UTC-05:00) Eastern Time (US & Canada)',
+					
 					'US/East-Indiana'=>'(UTC-05:00) Indiana (East)',
 					'America/Lima'=>'(UTC-05:00) Lima',
 					'America/Bogota'=>'(UTC-05:00) Quito',
@@ -192,7 +196,9 @@
 					'Pacific/Auckland'=>'(UTC+12:00) Wellington',
 					'Pacific/Tongatapu'=>'(UTC+13:00) Nukualofa');
 
-$Option4=array('Afghanistan'=>'Afghanistan',
+$Option4=array(
+	'United States'=>'United States',
+	'Afghanistan'=>'Afghanistan',
 'Albania'=>'Albania',
 'Algeria'=>'Algeria',
 'American Samoa'=>'American Samoa',
@@ -417,7 +423,7 @@ $Option4=array('Afghanistan'=>'Afghanistan',
 'Ukraine'=>'Ukraine',
 'United Arab Emirates'=>'United Arab Emirates',
 'United Kingdom'=>'United Kingdom',
-'United States'=>'United States',
+
 'United States Minor Outlying Islands'=>'United States Minor Outlying Islands',
 'Uruguay'=>'Uruguay',
 'Uzbekistan'=>'Uzbekistan',
