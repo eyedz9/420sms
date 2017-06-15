@@ -452,7 +452,7 @@ $Option4=array(
 		</div>
 		<div class="feildbox">
 			<img id="captcha" src="<?php echo $this->Html->url('/users/captcha_image');?>" alt="" />
-			<a href="javascript:void(0);" onclick="javascript:document.images.captcha.src='<?php echo $this->Html->url('/users/captcha_image');?>?' + Math.round(Math.random(0)*1000)+1">
+			<a href="javascript:void(0);" onclick="javascript:document.images.captcha.src='<?php echo $this->Html->url('..//users/captcha_image');?>?' + Math.round(Math.random(0)*1000)+1">
 			<br/><span class="reload">Reload Captcha</a> </span>
 		</div>
 		<!--<div class="form-group">
