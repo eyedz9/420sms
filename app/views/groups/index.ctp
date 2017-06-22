@@ -24,14 +24,15 @@
                                 </ul>
                             </div>
                     </div>
-				<div class="page-toolbar">
+			</div>
+				<?php echo $this->Session->flash(); ?>				
+			<div class="clearfix"></div>
+		<div class="page-toolbar">
 			<div class="btn-group pull-right">
 				<a class="btn btn-fit-height grey-salt" href="<?php echo SITE_URL;?>/groups/add" title="Add Group"><i class="fa fa-plus-square-o"></i> Add Group</a>
 			</div>
 				</div>
-			</div>
-				<?php echo $this->Session->flash(); ?>				
-			<div class="clearfix"></div>
+		<div class="clearfix"></div>
 				<div class="portlet box red">
                     <div class="portlet-title">
 						<div class="caption">
