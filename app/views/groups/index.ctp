@@ -12,17 +12,17 @@
 						<span>Manage Groups</span>
 					</li>
 				</ul>  
-					<!--<div class="page-toolbar">
+					<div class="page-toolbar">
                             <div class="btn-group pull-right">
-                                <button type="button" class="btn btn-fit-height grey-salt dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="1000" data-close-others="true">Actions <i class="fa fa-angle-down"></i>
+                                <!--<button type="button" class="btn btn-fit-height grey-salt dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="1000" data-close-others="true">Actions <i class="fa fa-angle-down"></i>
                                 </button>
                                 <ul class="dropdown-menu pull-right" role="menu">
                                     <li>
                                         <a href="<?php echo SITE_URL;?>/groups/add" title="Add Group"><i class="fa fa-plus-square-o"></i> Add Group</a>
                                     </li>
                                     
-                                </ul>
-                            </div> -->
+                                </ul> -->
+                            </div> 
                     </div>
 			</div>
 				<?php echo $this->Session->flash(); ?>				
