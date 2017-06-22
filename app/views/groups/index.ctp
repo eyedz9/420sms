@@ -30,7 +30,7 @@
 		<div class="page-bar">
 		<div class="page-toolbar">
 			<div class="btn-group">
-				<a class="btn btn-fit-height" href="<?php echo SITE_URL;?>/groups/add" title="Add Group"><i class="fa fa-plus-square-o"></i> Add Group</a>
+				<a class="btn btn-fit-height grey-salt" href="<?php echo SITE_URL;?>/groups/add" title="Add Group"><i class="fa fa-plus-square-o"></i> Add Group</a>
 			</div>
 				</div>
 		</div>
