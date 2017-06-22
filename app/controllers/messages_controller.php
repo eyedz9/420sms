@@ -177,7 +177,7 @@ class MessagesController extends AppController {
 				$subscriberPhone = '';
 				$body = $this->data['Keyword']['message']." ".$this->data['Message']['systemmsg'];
 				$spinbody = $this->process($body);
-				$length = strlen(utf8_decode(substr($spinbody,0,1600))); 
+				//$length = strlen(utf8_decode(substr($spinbody,0,1600))); 
 				if($this->data['Message']['msg_type']==2){ 
 					$contactcredits = 2; 
 				}else{ 
